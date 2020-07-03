@@ -10,8 +10,7 @@ body{
 
 header{
   width: 100%;
-  height: 800px;
-  background-color: #F4F9FD;
+  height: 900px;
 }
 
 .container{
@@ -25,11 +24,6 @@ header{
   clear: both;
 }
 
-.column{
-  float: left;
-  width: 50%;
-}
-
 button{
   font-family: 'Roboto', sans-serif;
   background-color: #FE775A;
@@ -40,9 +34,13 @@ button{
 }
 
 /* header prima sezione */
+.section-grey{
+  background-color: #F4F9FD;
+}
 
 .section-1{
-  padding: 25px 0;
+  height: 80px;
+  line-height: 80px;
 }
 
 .section-1 li{
@@ -51,6 +49,8 @@ button{
 }
 
 .section-1 .column-left{
+  float: left;
+  width: 50%;
   font-size: 18px;
   color: #32495B;
 }
@@ -60,6 +60,8 @@ button{
   background-color: transparent;
   padding-left: 5px;
   margin-right: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 .section-1 .column-left a{
@@ -71,6 +73,8 @@ button{
 }
 
 .section-1 .column-right{
+  float: left;
+  width: 50%;
   text-align: right;
 }
 
@@ -90,5 +94,95 @@ button{
 .section-1 button.gethubspot{
   padding: 11px;
 }
-
 /* /header prima sezione */
+
+/* header seconda sezione */
+.section-white{
+  background-color: #ffffff;
+  border-top: 1px solid #000000;
+}
+.section-2{
+  height: 80px;
+  line-height: 80px;
+}
+
+.section-2 .column-left{
+  float: left;
+  width: 20%;
+}
+
+.section-2 .column-left img{
+  vertical-align: middle;
+}
+
+.section-2 .column-right{
+  float: left;
+  width: 80%;
+  text-align: right;
+}
+
+.section-2 .column-right li{
+  list-style: none;
+  display: inline-block;
+}
+
+.section-2 .column-right a{
+  text-decoration: none;
+  color: #32495B;
+  margin-left: 25px;
+}
+
+.section-2 .column-right select{
+  border: none;
+  background-color: transparent;
+  padding-left: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #32495B;
+}
+
+.section-pink{
+  background-color: #FFF4EF;
+  height: 660px;
+  width: 100%;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position-x: right;
+  background-position-y: -3%;
+  border-bottom: 3px solid #33475B;
+}
+
+.section-pink .banner{
+  width: 30%;
+}
+
+.section-pink h1{
+  color: #33475B;
+  font-size: 50px;
+}
+
+.section-pink p{
+  color: #33475B;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section-pink button{
+  display: block;
+  padding: 20px 30px;
+}
+
+.section-pink small{
+  color: #33475B;
+}
+/* /header seconda sezione */
+
+/* header terza sezione */
+.section-green{
+  width: 100%;
+  height: 80px;
+  background-color: #AFEBE4;
+  border-bottom: 3px solid #33475B;
+}
+/* /header terza sezione */
