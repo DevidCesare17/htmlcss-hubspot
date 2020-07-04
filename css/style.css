@@ -36,6 +36,7 @@ button{
   border-radius: 3px;
   padding: 15px;
   color: #ffffff;
+  font-size: 14px;
 }
 
 /* header prima sezione */
@@ -44,7 +45,7 @@ button{
 }
 
 .section-1{
-  height: 80px;
+  height: 9%;
   line-height: 80px;
 }
 
@@ -107,7 +108,7 @@ button{
   border-top: 1px solid #000000;
 }
 .section-2{
-  height: 80px;
+  height: 9%;
   line-height: 80px;
 }
 
@@ -148,7 +149,7 @@ button{
 
 .section-pink{
   background-color: #FFF4EF;
-  height: 660px;
+  height: 73%;
   width: 100%;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
@@ -192,9 +193,9 @@ button{
 /* header terza sezione */
 .section-green{
   width: 100%;
-  height: 80px;
+  height: 9%;
   background-color: #AFEBE4;
-  border-bottom: 4px solid #33475B;
+  border-bottom: 3px solid #33475B;
 }
 /* /header terza sezione */
 
@@ -202,6 +203,7 @@ button{
 main .sezione-1{
   background-color: #F4F9FD;
   padding: 30px 0;
+  height: 50%;
 }
 
 .sezione-1 .intro{
@@ -248,6 +250,7 @@ main .sezione-1{
   padding: 20px 40px;
   display: block;
   margin: auto;
+  font-size: 14px;
 }
 
 .info-crm .colonna-1{
@@ -259,8 +262,8 @@ main .sezione-1{
 
 .info-crm .colonna-2{
   float: left;
-  height: 100%;
   width: 55%;
+  height: 100%;
   color: #33475B;
 }
 
@@ -461,18 +464,24 @@ main .sezione-1{
   padding: 20px 40px;
   display: block;
   margin: auto;
+  text-transform: capitalize;
+  font-size: 14px;
 }
 
 .colonna-hub-left button{
   padding: 20px 40px;
   display: block;
   margin: auto;
+  text-transform: capitalize;
+  font-size: 14px;
 }
 
 .colonna-hub-right button{
   padding: 20px 40px;
   display: block;
   margin: auto;
+  text-transform: capitalize;
+  font-size: 14px;
 }
 
 .colonna-hub span{
@@ -499,3 +508,67 @@ main .sezione-1{
   padding-left: 15px;
 }
 /* /main sezione 1 - parte seconda */
+
+/* main sezione 2 - parte prima */
+.sezione-2{
+  height: 25%;
+  background: linear-gradient(90deg, #00AAB6, #00BCA6);
+}
+
+.sezione-2 h2{
+  color: #ffffff;
+  text-align: center;
+  font-size: 38px;
+  padding: 40px;
+}
+
+.sezione-2 p{
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+
+.colonnabordo{
+  margin-top: 80px;
+}
+
+.colonnabordo .riga1, .riga2{
+  padding: 15px;
+}
+
+.primacol, .secondacol, .terzacol, .quartacol{
+  float: left;
+  width: 25%;
+}
+
+.colonnabordo .secondacol, .terzacol, .quartacol{
+  border-left: 1px solid #ffffff;
+}
+
+.colonnabordo img{
+  height: 35px;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.colonnabordo h2{
+  padding: 15px 0;
+  text-align: center;
+}
+
+.colonnabordo p{
+  text-align: center;
+  font-size: 12px;
+  padding-top: 0;
+}
+
+.colonnabordo .riga1{
+  border-bottom: 1px solid #ffffff;
+  padding: 30px 60px;
+}
+
+.colonnabordo .riga2{
+  padding: 30px 60px;
+}
+/* /main sezione 2 - parte prima */
