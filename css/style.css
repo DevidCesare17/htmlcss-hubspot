@@ -752,4 +752,44 @@ footer .languages a{
   color: #DADEE0;
   text-decoration: none;
 }
+
+/* copyright */
+.copyright{
+  padding: 40px 0;
+}
+
+.colonnalogo img{
+  display: block;
+}
+
+.colonnalogo p{
+  color: #DADEE0;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.copyright .colonnalogo{
+  float: left;
+  width: 20%;
+}
+
+.copyright .colonnaprivacy{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.colonnaprivacy li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.colonnaprivacy li a{
+  color: #DADEE0;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+/* copyright */
 /* /footer */
