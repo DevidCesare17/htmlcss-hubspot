@@ -572,3 +572,117 @@ main .sezione-1{
   padding: 30px 60px;
 }
 /* /main sezione 2 - parte prima */
+
+/* main sezione 2 - parte seconda */
+.container-2{
+  width: 60%;
+  margin: auto;
+}
+
+.sponsor{
+  padding: 50px 0;
+}
+
+.sponsor .col-1{
+  float: left;
+  width: 20%;
+  color: #33475B;
+}
+
+.sponsor .col-2{
+  float: right;
+  width: 60%;
+}
+
+.sponsor .col-1 h2{
+  font-size: 46px;
+  padding-bottom: 30px;
+}
+
+.sponsor .col-1 p{
+  line-height: 30px;
+}
+
+.sponsor .col-2 ul{
+  text-align: center;
+}
+
+.sponsor .col-2 li{
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  margin: auto;
+}
+
+.sponsor .col-2 img{
+  height: 16px;
+  vertical-align: middle;
+}
+
+.sponsor .col-2 .g2crowd{
+  height: 40px;
+}
+
+.sponsor .col-2 .purple{
+  height: 70px;
+}
+
+.sponsor .col-2 .subaru{
+  height: 40px;
+}
+
+.sponsor .col-2 .wistia{
+height: 20px;
+}
+
+.sponsor .col-2 .classpass{
+height: 50px;
+}
+
+.sponsor .col-2 .vmware{
+height: 30px;
+}
+/* /main sezione 2 - parte seconda */
+
+/* main sezione 2 - parte ultima */
+.premium{
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.premium .col-1{
+  float: left;
+  width: 36%;
+  color: #33475B;
+}
+
+.premium h2{
+  text-transform: capitalize;
+  font-size: 35px;
+}
+
+.premium p{
+  line-height: 30px;
+  margin: 40px 0;
+  font-weight: 700;
+}
+
+.premium button{
+  display: block;
+  padding: 20px 30px;
+  margin-bottom: 40px;
+}
+
+.premium .col-2{
+  float: right;
+  width: 25%;
+}
+
+.premium img{
+  position: absolute;
+  transform: translateY(-10%);
+  height: 400px;
+  vertical-align: middle;
+}
+/* /main sezione 2 - parte ultima */
