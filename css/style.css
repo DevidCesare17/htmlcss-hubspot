@@ -10,7 +10,7 @@ body{
 
 header{
   width: 100%;
-  height: 900px;
+  height: 910px;
 }
 
 main{
@@ -154,22 +154,22 @@ button{
 }
 
 .section-pink{
+  position: relative;
   background-color: #FFF4EF;
-  height: 73%;
+  height: 83%;
   width: 100%;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: 80%;
   background-position-x: right;
   background-position-y: -7%;
-  border-bottom: 3px solid #33475B;
 }
 
 .section-pink .banner{
   position: absolute;
   width: 30%;
   top: 45%;
-  transform: translateY(-50%);
+  transform: translateY(-70%);
 }
 
 .section-pink h1{
@@ -198,9 +198,13 @@ button{
 
 /* header terza sezione */
 .section-green{
+  position: absolute;
   width: 100%;
-  height: 9%;
+  height: 11%;
+  bottom: 0%;
+  transform: translateY(-22%);
   background-color: #AFEBE4;
+  border-top: 3px solid #33475B;
   border-bottom: 3px solid #33475B;
 }
 /* /header terza sezione */
