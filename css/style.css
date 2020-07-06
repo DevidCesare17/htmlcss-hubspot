@@ -10,7 +10,11 @@ body{
 
 header{
   width: 100%;
-  height: 910px;
+  height: 900px;
+}
+
+option{
+  background-color: #E5F5F8;
 }
 
 main{
@@ -20,7 +24,7 @@ main{
 
 footer{
   width: 100%;
-  height: 700px;
+  height: 650px;
   background-color: #33475B;
 }
 
@@ -166,10 +170,8 @@ button{
 }
 
 .section-pink .banner{
-  position: absolute;
-  width: 30%;
-  top: 45%;
-  transform: translateY(-70%);
+  width: 45%;
+  padding-top: 80px;
 }
 
 .section-pink h1{
@@ -200,9 +202,8 @@ button{
 .section-green{
   position: absolute;
   width: 100%;
-  height: 11%;
+  height: 13%;
   bottom: 0%;
-  transform: translateY(-22%);
   background-color: #AFEBE4;
   border-top: 3px solid #33475B;
   border-bottom: 3px solid #33475B;
@@ -336,45 +337,16 @@ main .sezione-1{
   margin: 40px 66px;
 }
 
-.colonna-hub-left{
-  float: left;
-  width: 30%;
-  background-color: #ffffff;
-  color: #33475B;
-  text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
-  padding: 50px;
+.colonnaleft{
   margin: 40px 0;
 }
 
-.colonna-hub-right{
+.colonnaright{
   float: right;
-  width: 30%;
-  background-color: #ffffff;
-  color: #33475B;
-  text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
-  padding: 50px;
   margin: 40px 0;
 }
 
 .colonna-hub h3{
-  text-transform: capitalize;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.colonna-hub-left h3{
-  text-transform: capitalize;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.colonna-hub-right h3{
   text-transform: capitalize;
   font-size: 24px;
   margin-bottom: 20px;
@@ -385,29 +357,7 @@ main .sezione-1{
   font-size: 16px;
 }
 
-.colonna-hub-left p{
-  line-height: 26px;
-  font-size: 16px;
-}
-
-.colonna-hub-right p{
-  line-height: 26px;
-  font-size: 16px;
-}
-
 .colonna-hub hr{
-  margin-top: 40px;
-  width: 100%;
-  border: 1px solid #899397;
-}
-
-.colonna-hub-left hr{
-  margin-top: 40px;
-  width: 100%;
-  border: 1px solid #899397;
-}
-
-.colonna-hub-right hr{
   margin-top: 40px;
   width: 100%;
   border: 1px solid #899397;
@@ -419,29 +369,7 @@ main .sezione-1{
   margin: 30px 0;
 }
 
-.colonna-hub-left h3:nth-child(2n+3){
-  text-transform: uppercase;
-  font-size: 18px;
-  margin: 30px 0;
-}
-
-.colonna-hub-right h3:nth-child(2n+3){
-  text-transform: uppercase;
-  font-size: 18px;
-  margin: 30px 0;
-}
-
 .colonna-hub li{
-  list-style: none;
-  text-align: left;
-}
-
-.colonna-hub-left li{
-  list-style: none;
-  text-align: left;
-}
-
-.colonna-hub-right li{
   list-style: none;
   text-align: left;
 }
@@ -450,23 +378,7 @@ main .sezione-1{
   margin-bottom: 40px;
 }
 
-.colonna-hub-left ul{
-  margin-bottom: 40px;
-}
-
-.colonna-hub-right ul{
-  margin-bottom: 40px;
-}
-
 .colonna-hub img{
-  height: 100px;
-}
-
-.colonna-hub-left img{
-  height: 100px;
-}
-
-.colonna-hub-right img{
   height: 100px;
 }
 
@@ -478,39 +390,7 @@ main .sezione-1{
   font-size: 14px;
 }
 
-.colonna-hub-left button{
-  padding: 20px 40px;
-  display: block;
-  margin: auto;
-  text-transform: capitalize;
-  font-size: 14px;
-}
-
-.colonna-hub-right button{
-  padding: 20px 40px;
-  display: block;
-  margin: auto;
-  text-transform: capitalize;
-  font-size: 14px;
-}
-
 .colonna-hub span{
-  text-transform: capitalize;
-  font-size: 14px;
-  color: #48596B;
-  font-family: 'Roboto', sans-serif;
-  padding-left: 15px;
-}
-
-.colonna-hub-left span{
-  text-transform: capitalize;
-  font-size: 14px;
-  color: #48596B;
-  font-family: 'Roboto', sans-serif;
-  padding-left: 15px;
-}
-
-.colonna-hub-right span{
   text-transform: capitalize;
   font-size: 14px;
   color: #48596B;
@@ -529,7 +409,7 @@ main .sezione-1{
   color: #ffffff;
   text-align: center;
   font-size: 38px;
-  padding: 40px;
+  padding: 44px;
 }
 
 .sezione-2 p{
