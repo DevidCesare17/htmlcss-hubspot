@@ -13,6 +13,10 @@ header{
   height: 900px;
 }
 
+select{
+  outline: none;
+}
+
 option{
   background-color: #E5F5F8;
 }
