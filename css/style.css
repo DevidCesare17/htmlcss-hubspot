@@ -5,6 +5,7 @@
 }
 
 body{
+  position: relative;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -681,3 +682,57 @@ footer .languages a{
 }
 /* copyright */
 /* /footer */
+
+/* widget */
+/* body position relative */
+.widget{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 14vh;
+  width: 13vw;
+  background-color: #ffffff;
+  margin: 110px 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #33475B;
+}
+
+.widget img{
+  position: absolute;
+  left: 40%;
+  top: -15%;
+  height: 50px;
+  display: block;
+}
+
+.fa-times{
+  color: #33475B;
+  font-size: 20px;
+  text-align: right;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.message-icon{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #33475B;
+  border-radius: 100%;
+  border: 1px solid #ffffff;
+  padding: 15px;
+  margin: 0 50px 20px 0;
+}
+
+.message p{
+  font-size: 16px;
+  line-height: 16px;
+  color: #33475B;
+}
+
+.fa-comment-alt{
+  color: #ffffff;
+  font-size: 40px;
+}
+/* /widget */
