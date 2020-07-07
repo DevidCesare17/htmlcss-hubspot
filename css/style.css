@@ -20,6 +20,7 @@ select{
 
 option{
   background-color: #E5F5F8;
+  border: 1px solid transparent;
 }
 
 main{
@@ -52,6 +53,24 @@ button{
   padding: 15px;
   color: #ffffff;
   font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+button:hover{
+  background-color: #FFBCAC;
+}
+
+a button.login:hover{
+  background-color: #FFF1EE;
+}
+
+a button.contactbutton:hover{
+  background-color: #EAF0F6;
 }
 
 /* header prima sezione */
@@ -100,7 +119,6 @@ button{
 }
 
 .section-1 .column-right a{
-  text-decoration: none;
   color: #00A4BD;
 }
 
@@ -148,7 +166,6 @@ button{
 }
 
 .section-2 .column-right a{
-  text-decoration: none;
   color: #32495B;
   margin-left: 25px;
 }
@@ -389,7 +406,6 @@ main .sezione-1{
 
 .colonna-hub button{
   padding: 20px 40px;
-  display: block;
   margin: auto;
   text-transform: capitalize;
   font-size: 14px;
@@ -607,7 +623,6 @@ height: 30px;
 
 .menu-footer a{
   color: #CBD6E2;
-  text-decoration: none;
 }
 
 .menu-footer button{
@@ -639,7 +654,6 @@ footer .languages li{
 
 footer .languages a{
   color: #DADEE0;
-  text-decoration: none;
 }
 
 /* copyright */
