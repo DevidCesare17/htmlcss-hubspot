@@ -84,6 +84,10 @@ a button.contactbutton:hover{
   background-color: #F4F9FD;
 }
 
+.section-white a{
+  font-weight: 700;
+}
+
 .section-1{
   height: 9%;
   line-height: 80px;
@@ -171,7 +175,7 @@ a button.contactbutton:hover{
   margin-top: 20px;
 }
 
-.softwarelist:hover li a{
+.softwarelist:hover .softwarelist-middle{
   background-color: lightblue;
 }
 
@@ -289,7 +293,7 @@ div.span{
 
 .section-2 .column-right a{
   color: #32495B;
-  margin-left: 25px;
+  margin-left: 40px;
 }
 
 .section-2 .column-right select{
