@@ -171,9 +171,9 @@ a button.contactbutton:hover{
   margin-top: 20px;
 }
 
-/* .softwarelist:hover li a{
+.softwarelist:hover li a{
   background-color: lightblue;
-} */
+}
 
 div.span{
   display: inline;
