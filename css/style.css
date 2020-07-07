@@ -136,6 +136,27 @@ a button.contactbutton:hover{
 /* /header prima sezione */
 
 /* header seconda sezione */
+.softwarelist{
+  position: absolute;
+  display: none;
+  width: 150px;
+  height: 100px;
+  background-color: white;
+}
+
+.software:hover .softwarelist{
+  display: block;
+}
+
+.softwarelist small{
+  display: block;
+}
+
+.softwarelist li{
+  line-height: 20px;
+  text-align: left;
+}
+
 .section-white{
   background-color: #ffffff;
   border-top: 1px solid #000000;
