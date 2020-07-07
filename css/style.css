@@ -45,12 +45,6 @@ footer{
   clear: both;
 }
 
-.section-white small{
-  display: block;
-  font-size: 12px;
-  font-weight: 400;
-}
-
 button{
   font-family: 'Roboto', sans-serif;
   background-color: #FE775A;
@@ -82,10 +76,6 @@ a button.contactbutton:hover{
 /* header prima sezione */
 .section-grey{
   background-color: #F4F9FD;
-}
-
-.section-white a{
-  font-weight: 700;
 }
 
 .section-1{
@@ -146,122 +136,6 @@ a button.contactbutton:hover{
 /* /header prima sezione */
 
 /* header seconda sezione */
-.softwarelist{
-  position: absolute;
-  z-index: 10;
-  display: none;
-  width: 500px;
-  background-color: #ffffff;
-  padding: 20px;
-  border: 1px solid #33475B;
-  border-radius: 3px;
-  text-align: left;
-}
-
-.software:hover .softwarelist{
-  display: block;
-}
-
-.softwarelist,.partnerlist a{
-  font-weight: 700;
-}
-
-.softwarelist div{
-  line-height: 26px;
-  text-align: left;
-}
-
-.softwarelist-middle,.softwarelist-bottom{
-  margin-top: 20px;
-}
-
-.softwarelist:hover .softwarelist-middle{
-  background-color: lightblue;
-}
-
-div.span{
-  display: inline;
-  background-color: #00BDA5;
-  color: #ffffff;
-  font-size: 14px;
-  vertical-align: middle;
-  border-radius: 5px;
-  padding: 1px 5px;
-}
-
-.partnerlist{
-  position: absolute;
-  z-index: 10;
-  display: none;
-  width: 600px;
-  background-color: #ffffff;;
-  border: 1px solid #33475B;
-  border-radius: 3px;
-  text-align: left;
-  right: 10%;
-  line-height: 26px;
-}
-
-.partners:hover .partnerlist{
-  display: block;
-}
-
-.partner-left{
-  float: left;
-  width: 50%;
-  padding: 20px;
-}
-
-.aboutlist{
-  position: absolute;
-  z-index: 10;
-  display: none;
-  width: 600px;
-  background-color: #ffffff;;
-  border: 1px solid #33475B;
-  border-radius: 3px;
-  text-align: left;
-  right: 5%;
-  line-height: 40px;
-  padding: 20px;
-}
-
-.about:hover .aboutlist{
-  display: block;
-}
-
-.aboutlist-left{
-  float: left;
-  width: 33.3%;
-}
-
-.resourceslist-left div{
-  border-bottom: 1px solid black;
-}
-
-.resourceslist{
-  position: absolute;
-  z-index: 10;
-  display: none;
-  width: 1100px;
-  background-color: #ffffff;;
-  border: 1px solid #33475B;
-  border-radius: 3px;
-  text-align: left;
-  right: 5%;
-  line-height: 22px;
-  padding: 20px;
-}
-
-.resources:hover .resourceslist{
-  display: block;
-}
-
-.resourceslist-left{
-  float: left;
-  width: 33.3%;
-}
-
 .section-white{
   background-color: #ffffff;
   border-top: 1px solid #000000;
@@ -293,7 +167,7 @@ div.span{
 
 .section-2 .column-right a{
   color: #32495B;
-  margin-left: 40px;
+  margin-left: 25px;
 }
 
 .section-2 .column-right select{
