@@ -11,7 +11,8 @@ body{
 
 header{
   width: 100%;
-  height: 900px;
+  height: 800px;
+  margin-top: 80px;
 }
 
 select{
@@ -75,6 +76,10 @@ a button.contactbutton:hover{
 
 /* header prima sezione */
 .section-grey{
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top: 0;
   background-color: #F4F9FD;
 }
 
@@ -182,13 +187,12 @@ a button.contactbutton:hover{
 .section-pink{
   position: relative;
   background-color: #FFF4EF;
-  height: 83%;
+  height: 95%;
   width: 100%;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: 80%;
-  background-position-x: right;
-  background-position-y: -7%;
+  background-position: bottom right;
 }
 
 .section-pink .banner{
@@ -224,7 +228,7 @@ a button.contactbutton:hover{
 .section-green{
   position: absolute;
   width: 100%;
-  height: 13%;
+  height: 15%;
   bottom: 0%;
   background-color: #AFEBE4;
   border-top: 3px solid #33475B;
